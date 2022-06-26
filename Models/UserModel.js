@@ -16,11 +16,9 @@ const UserSchema = new mongoose.Schema({
         minlength: 8
     },
     phone:{
-        type:String,
+        type:Number,
+        length:10,
         unique: true
-    },
-    address:{
-        type:Array,
     },
     cart:{
         type:Array,

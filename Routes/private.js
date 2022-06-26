@@ -1,6 +1,6 @@
 import express from "express";
 import TokenVerifier from "../Middlewares/TokenVerifier.js";
-import Product from "../Models/Product.js";
+import Product from "../Models/ProductModel.js";
 
 const Router = express.Router();
 

@@ -1,2 +1,2 @@
-export const saltrounds = 10;
+export const saltrounds = 5;
 
